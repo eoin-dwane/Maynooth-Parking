@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:amplify_flutter/amplify_flutter.dart';
 import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
-import 'package:amplify_api/amplify_api.dart'; // 👈 new import
-import 'amplifyconfiguration.dart'; // Make sure this file is in your lib folder
+import 'package:amplify_api/amplify_api.dart'; 
+import 'amplifyconfiguration.dart'; 
 import 'home_page.dart';
 import 'package:flutter/foundation.dart';
 
@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> _configureAmplify() async {
     try {
-      // 👇 add both Auth + API
+     
       final auth = AmplifyAuthCognito();
       final api = AmplifyAPI();
 
