@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:amplify_flutter/amplify_flutter.dart';
-import 'landing_page.dart'; // Import your landing page
+import 'landing_page.dart'; 
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -63,7 +63,7 @@ class _LoginPageState extends State<LoginPage> {
             const SnackBar(content: Text('Login successful!')),
           );
 
-          // Navigate to Landing Page
+         
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(builder: (_) => const LandingPage()),
