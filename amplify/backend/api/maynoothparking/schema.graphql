@@ -1,0 +1,13 @@
+type CarPark @model @auth(rules: [{ allow: private }]) {
+  id: ID!
+  name: String!
+  maxCapacity: Int!
+}
+
+type ParkingRegistration @model @auth(rules: [{ allow: owner }]) {
+  id: ID!
+  carParkId: ID!
+  userId: String!
+  leaveTime: AWSDateTime!
+  createdAt: AWSDateTime
+}

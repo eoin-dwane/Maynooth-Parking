@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-maynoothparking-dev-b3ded-authRole",
+      "UnauthRoleArn": "arn:aws:iam::003083320615:role/amplify-maynoothparking-dev-b3ded-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::003083320615:role/amplify-maynoothparking-dev-b3ded-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-maynoothparking-dev-b3ded-deployment",
+      "UnauthRoleName": "amplify-maynoothparking-dev-b3ded-unauthRole",
+      "StackName": "amplify-maynoothparking-dev-b3ded",
+      "StackId": "arn:aws:cloudformation:eu-north-1:003083320615:stack/amplify-maynoothparking-dev-b3ded/13ecfa60-74ac-11f0-aa4c-0a8267268c21",
+      "AmplifyAppId": "d2601s04kwkk8q"
+    },
+    "categories": {
+      "auth": {
+        "auth": {}
+      },
+      "api": {
+        "maynoothparking": {}
+      }
+    }
+  }
+}
